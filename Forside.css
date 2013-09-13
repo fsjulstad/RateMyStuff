@@ -2,11 +2,13 @@ body {background-color:#a0c1ae;}
 
 #container{
 	width:900px;
+	
+	
 }
 
 #header{
 	width:900px;
-	height:100px;
+	height:200px;
 	background-color:218B50 ;
 	border-top: 1px solid #FFFFFF;
 	border-left: 1px solid #FFFFFF;
@@ -21,6 +23,8 @@ body {background-color:#a0c1ae;}
 	height:700px;
 	background-color:#218B50;
 	border-left: 1px solid #FFFFFF; 
+	
+	top: 300px
 	
 }
 
@@ -43,12 +47,30 @@ body {background-color:#a0c1ae;}
 
 #footer{
 	clear:both;
-	background-color:#FFFFFF
+	background-color:#218B50;
+	border-top: 1px solid #FFFFFF;
+	border-left:1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	
+	width:900px;
+	height: 45px;
+	
+	
 }
 ul {margin:0;
 	padding:0;
 	position: absolute;
-	top: 250px;}
+	top: 230px;	}
+
+	
+	
+
+
+
+
+
+
 
 
 a:link, a:visited {	
@@ -69,6 +91,7 @@ a:link, a:visited {
 
 	text-decoration:none;
 	border-left: 1px solid;
+	
 }
 
 a:hover{
@@ -77,30 +100,22 @@ a:hover{
 
 }
 
-.ramme {
-	
-	border-style:solid;
-	border-width: 200px;
-	
-	
-	position: absolute; 
-	top: 200px;
-	left: 200px;
-	
 
-}
+
 
 .logo {
 
 	position: absolute;
-	top: 12px;
-	left: 0px;
+	top: 50px;
+	left: 180px;
 	
 	width:
 	height:
 }
 
-
+.kontaktinfo {
+color: #FFFFFF
+}
 
 
 
