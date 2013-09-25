@@ -7,7 +7,7 @@ body {background-color:#a0c1ae;}
 }
 
 #header{
-  width:900px;
+  width:898px;
   height:160px;
   background-color:218B50 ;
   border-top: 1px solid #FFFFFF;
@@ -47,7 +47,12 @@ body {background-color:#a0c1ae;}
 
 #footer{
   clear:both;
-  background-color:#FFFFFF
+  background-color:#218B50;
+  border-right: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px dashed #FFFFFF;
+  color: FFFFFF;
 }
 ul {margin:0;
   padding:0;
@@ -87,24 +92,24 @@ a:hover{
 	
 	border-style:solid;
 	border-width: 2px;
+	background-color: #FFFFFF;
 	
+ 	position: absolute;
+	top: 200px;
+	left: 331px;
 	
- 
-	top: 150px;
-	left: 200px;
-	
+	height: 100px;
+	width: 600px;
 
 }
 
-/*.logo {
+.logo {
 
-
-  top: 12px;
-  left: 0px;
-  
-  width:
-  height:
-}*/
+	position: absolute;
+  	top: 12px;
+  	left: 420px;
+  	
+}
 
 
 #content {
