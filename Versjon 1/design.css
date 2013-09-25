@@ -1,7 +1,9 @@
 body {background-color:#a0c1ae;}
 
 #container{
-  width:900px;
+	width:900px;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 
 #header{
@@ -13,19 +15,16 @@ body {background-color:#a0c1ae;}
   border-bottom: 1px dashed #FFFFFF;
   border-right: 1px solid #FFFFFF;
   
-  position: absolute;
-  left: 150px;
-  
 }
 
 #leftnav{
-  float:left;
   width:140px;
   height:700px;
   background-color:#218B50;
-  border-left: 1px solid #FFFFFF; 
+  border-left: 1px solid #FFFFFF;
   
 
+  float:left;
 
 }
 
@@ -36,9 +35,9 @@ body {background-color:#a0c1ae;}
   background-color:#218B50;
   border-right: 1px solid #FFFFFF;
   
-  position: absolute;
-  top: 100 px;
-  left: 900px;
+
+  float:right;
+
 
 }
 
@@ -90,22 +89,22 @@ a:hover{
 	border-width: 2px;
 	
 	
-	position: absolute; 
+ 
 	top: 150px;
 	left: 200px;
 	
 
 }
 
-.logo {
+/*.logo {
 
-  position: absolute;
+
   top: 12px;
   left: 0px;
   
   width:
   height:
-}
+}*/
 
 
 #content {
