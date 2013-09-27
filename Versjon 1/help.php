@@ -31,20 +31,13 @@
 
 
 <div id="header"></div>
-<div id="rightnav"></div>
+
 <div id="leftnav"></div>
 
-<div id="body"></div>
-
-<div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
-  Contact information: teamrocket@hotmail.com </span>
-</div>
-
-<span class="logo"><img src="rate my stuff2.png" alt="logo" style="height:150px; width:400px;"></span>
-
-</div>
+<div id="rightnav"></div>
 
 <?php
+
 if (isset($_REQUEST['email']))
   {
   $email = $_REQUEST['email'] ;
@@ -65,7 +58,18 @@ else
   <input type='submit' value='Send'>
   </form>";
   }
+ 
 ?>
+
+<div id="body"></div>
+
+<div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
+  Contact information: teamrocket@hotmail.com </span>
+</div>
+
+<span class="logo"><img src="rate my stuff2.png" alt="logo" style="height:150px; width:400px;"></span>
+
+</div>
 
 </body
 </html>
