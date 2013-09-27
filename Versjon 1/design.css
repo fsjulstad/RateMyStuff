@@ -9,7 +9,7 @@ body {background-color:#a0c1ae;}
 #header{
   width:898px;
   height:160px;
-  background-color:218B50 ;
+  background-color:#218B50 ;
   border-top: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
   border-bottom: 1px dashed #FFFFFF;
@@ -82,6 +82,11 @@ a:link, a:visited {
   
 }
 
+#email{
+
+}
+
+
 a:hover{
   
   background-color:#a0c1ae;
@@ -111,12 +116,6 @@ a:hover{
   	
 }
 
-
-#content {
-  width: 700px ;
-  margin-left: auto ;
-  margin-right: auto ;
-}
 
 
 
