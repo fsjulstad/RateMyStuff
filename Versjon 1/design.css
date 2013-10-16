@@ -22,7 +22,7 @@ body {background-color:#a0c1ae;}
   height:700px;
   background-color:#218B50;
   border-left: 1px solid #FFFFFF;
-  
+  border-right: 1px solid #FFFFFF;
 
   float:left;
 
@@ -33,7 +33,9 @@ body {background-color:#a0c1ae;}
   width:140px;
   height:700px;
   background-color:#218B50;
+  border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
+
   
 
   float:right;
@@ -48,7 +50,7 @@ body {background-color:#a0c1ae;}
   border-left: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
   border-top: 1px dashed #FFFFFF;
-  color: FFFFFF;
+  color: #FFFFFF;
 }
 ul {margin:0;
   padding:0;
