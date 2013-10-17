@@ -42,11 +42,6 @@ body {background-color:#a0c1ae;}
   color: #FFFFFF;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
 =======
 
 
@@ -62,9 +57,6 @@ nav {
     position:relative;
     top:20px;
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
 }
  
 nav ul {
@@ -105,15 +97,10 @@ nav a:hover {
     background: RGBA(255,255,255,0.05);
     color:#fff;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
 nav ul li:hover ul {
     /* Gjør at neste liste vises når man holder musepekeren over. */
     display:block;
 }
-<<<<<<< HEAD
     /* Posisjon for child, relativ til parent lenger oppe. */
 nav ul ul {
     position:absolute;
@@ -247,57 +234,6 @@ nav a:hover span {
 }
 <<<<<<< HEAD
 =======
-
-
->>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
-=======
-
-    /* Posisjon for child, relativ til parent lenger oppe. */
-
-nav ul ul {
-    position:absolute;
-    left:140px;
-    top:0;
-    border-top:1px solid #e9e9e9;
-    display:none;
-}
-nav ul ul li {
-    width:200px;
-    background:#f1f1f1;
-    border:1px solid #e9e9e9;
-    border-top:0;
-}
-nav ul ul li a {
-    color:#a8a8a8;
-    font-size:12px;
-    text-transform:none;
-}
-nav ul ul li a:hover {
-    color:#929292;
-}
-
-/* Ender farge: barkgrunn og farge for firkant(animasjon), på elementene, roterer 90 grader */
-nav span {
-    width:12px;
-    height:12px;
-    background:#fff;
-    display:inline-block;
-    float:left;
-    margin-top:3px;
-    margin-right:20px;
-    position:relative;
-    transition:all 0.5s;
-    -moz-transition:all 0.5s;
-    -o-transition:all 0.5s;
-    -webkit-transition:all 0.5s;
-}
-
-nav a:hover span {
-    background: #7d2c41;
-    transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-}
 
 
 >>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
@@ -311,7 +247,6 @@ nav span:before {
     left:0px;
     top:5px;
 <<<<<<< HEAD
-<<<<<<< HEAD
 }
 /*Vertikal linje*/
 nav span:after {
@@ -334,20 +269,7 @@ nav span:after {
     position:absolute;
     left:5px;
     position:top;
-=======
->>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
 }
-/*Vertikal linje*/
-nav span:after {
-    content:"";
-    width:2px;
-    height:12px;
-    background:#3a3b3b;
-    position:absolute;
-    left:5px;
-    position:top;
-}
-
 
 
 >>>>>>> 3e07589665165e6a396308cb9cd37da09662efc9
