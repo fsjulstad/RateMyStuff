@@ -9,15 +9,16 @@ body {background-image: url("bakgrunnplanker.png") ;}
 #header{
   width:898px;
   height:160px;
-  background-color:#218B50 ;
+  background-color:#3a3b3b;
   border-top: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
-  border-bottom: 1px dashed #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
   
 }
 
 #leftnav{
+  background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
   width:140px;
   height:700px;
   background-color:#218B50;
@@ -30,6 +31,7 @@ body {background-image: url("bakgrunnplanker.png") ;}
 
 #rightnav{
   
+  background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
   width:140px;
   height:700px;
   background-color:#218B50;
@@ -45,11 +47,11 @@ body {background-image: url("bakgrunnplanker.png") ;}
 
 #footer{
   clear:both;
-  background-color:#218B50;
+  background-color:#3a3b3b;
   border-right: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
-  border-top: 1px dashed #FFFFFF;
+  border-top: 1px solid #FFFFFF;
   color: #FFFFFF;
 }
 
