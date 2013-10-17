@@ -7,6 +7,7 @@ body {background-image: url("bakgrunnplanker.png") ;}
 }
 
 #header{
+
   width:898px;
   height:160px;
   background-color:#3a3b3b;
@@ -18,6 +19,7 @@ body {background-image: url("bakgrunnplanker.png") ;}
 }
 
 #leftnav{
+
   background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
   width:140px;
   height:700px;
@@ -46,13 +48,16 @@ body {background-image: url("bakgrunnplanker.png") ;}
 }
 
 #footer{
-  clear:both;
-  background-color:#3a3b3b;
-  border-right: 1px solid #FFFFFF;
-  border-left: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
-  border-top: 1px solid #FFFFFF;
-  color: #FFFFFF;
+
+	position:relative;
+	
+	clear:both;
+	background-color:#3a3b3b;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	color: #FFFFFF;
 }
 
 
@@ -185,7 +190,7 @@ nav span:after {
 
 	position: relative;
 	
-	width: 620px;
+	width: 618px;
 	height:	700px;
 	
 	background-color: #FFFFFF;
@@ -193,25 +198,6 @@ nav span:after {
 	margin-left: auto ;
 	margin-right: auto ;
 	
-}
-
-#nyhet {
-
-	background-color: #FFFFFF;
-	
-	margin-left: auto ;
-	margin-right: auto ;
-	
-	width: 620px;									
-
-}
-
-.skillelinje {
-
-	background-color: #
-	width:550px;
-	height:10px;
-
 }
 
 #logo {
