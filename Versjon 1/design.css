@@ -181,15 +181,36 @@ nav span:after {
     position:top;
 }
 
-
 #body {
+
+	position: relative;
+	
+	width: 620px;
+	height:	700px;
+	
+	background-color: #FFFFFF;
+	
+	margin-left: auto ;
+	margin-right: auto ;
+	
+}
+
+#nyhet {
 
 	background-color: #FFFFFF;
 	
 	margin-left: auto ;
 	margin-right: auto ;
 	
-	border-bottom: solid									
+	width: 620px;									
+
+}
+
+.skillelinje {
+
+	background-color: #
+	width:550px;
+	height:10px;
 
 }
 
