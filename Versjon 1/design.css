@@ -49,8 +49,6 @@ body {background-image: url("bakgrunnplanker.png") ;}
 
 #footer{
 
-	position:relative;
-	
 	clear:both;
 	background-color:#3a3b3b;
 	border-right: 1px solid #FFFFFF;
@@ -188,7 +186,6 @@ nav span:after {
 
 #body {
 
-	position: relative;
 	
 	width: 618px;
 	height:	700px;
