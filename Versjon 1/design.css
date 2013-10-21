@@ -196,17 +196,6 @@ nav span:after {
     position:top;
 }
 
-#nyheter {
-
-	position:relative;
-
-	top:20px;
-	left:50px;
-	
-	z-index:0;
-
-}
-
 #logo {
 
 	position:relative;
