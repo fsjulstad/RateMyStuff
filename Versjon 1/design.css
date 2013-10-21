@@ -196,6 +196,13 @@ nav span:after {
     position:top;
 }
 
+#body{
+
+	position:relative;
+	left:20px;
+
+}
+
 #logo {
 
 	position:relative;
