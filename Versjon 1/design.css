@@ -1,12 +1,19 @@
-body {background-image: url("bakgrunnplanker.png") ;}
+body {
+background-color: white ;
+}
 
 #container{
+
+	position:relative;
+
 	width:900px;
 	margin-left: auto ;
 	margin-right: auto ;
 }
 
 #header{
+
+	position:realtive;
 
   width:898px;
   height:160px;
@@ -20,18 +27,21 @@ body {background-image: url("bakgrunnplanker.png") ;}
 
 #leftnav{
 
-  background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
-  width:140px;
-  height:700px;
-  background-color:#218B50;
-  border-left: 1px solid #FFFFFF;
-  border-right: 1px solid #FFFFFF;
+	position:relative;
+	
+	background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
+	width:140px;
+	height:700px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
 
-  float:left;
+	float:left;
 
 }
 
 #rightnav{
+
+	position:relative;
   
   background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
   width:140px;
@@ -48,7 +58,9 @@ body {background-image: url("bakgrunnplanker.png") ;}
 }
 
 #footer{
-
+	
+	position:relative;
+	
 	clear:both;
 	background-color:#3a3b3b;
 	border-right: 1px solid #FFFFFF;
@@ -184,17 +196,15 @@ nav span:after {
     position:top;
 }
 
-#body {
+#nyheter {
 
+	position:relative;
+
+	top:20px;
+	left:50px;
 	
-	width: 618px;
-	height:	700px;
-	
-	background-color: #FFFFFF;
-	
-	margin-left: auto ;
-	margin-right: auto ;
-	
+	z-index:0;
+
 }
 
 #logo {
@@ -205,7 +215,15 @@ nav span:after {
   	
 }
 
+hr {
 
+	width:500px;
+    height: 3px;
+    color: #ed1d61;
+	background: #ed1d61;
+    font-size: 0;
+    border: 0;
+}
 
 
 
