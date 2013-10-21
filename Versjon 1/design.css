@@ -196,17 +196,6 @@ nav span:after {
     position:top;
 }
 
-#nyheter {
-
-	position:relative;
-
-	top:20px;
-	left:50px;
-	
-	z-index:0;
-
-}
-
 #logo {
 
 	position:relative;
@@ -214,19 +203,3 @@ nav span:after {
   	left: 175px;
   	
 }
-
-hr {
-
-	width:500px;
-    height: 3px;
-    color: #ed1d61;
-	background: #ed1d61;
-    font-size: 0;
-    border: 0;
-}
-
-
-
-
-
-
