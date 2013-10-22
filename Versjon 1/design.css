@@ -52,7 +52,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
   border-right: 1px solid #FFFFFF;  
 }
 
-#test{
+#center{
 	z-index: 1;
 	position:center;
 	width: 618px;
@@ -61,9 +61,16 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	margin: 0 auto;
 }
 
+#overskrift {
+	z-index:2;
+	position:relative;
+	width:498;
+	left:20;
+}
+
 #tekst{
 	z-index:2;
-	position: left;
+	position: relative;
 	width: 498px;
 	left: 20px;                                           	
 }
