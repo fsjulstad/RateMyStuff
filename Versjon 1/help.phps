@@ -63,15 +63,33 @@
 </div>
 <div id="rightnav"></div>
 
-
-
 <div id="center">
-	<span id="tekst">Hva siden er for noe og prosjektet vårt/sammenhengen siden er opprettet i</span>
+	<span id="tekst">Her vil det være nyheter og oppdateringer med siden</span><br>
+	<?php
+
+if (isset($_REQUEST['email']))
+  {
+  $email = $_REQUEST['email'] ;
+  $subject = $_REQUEST['subject'] ;
+  $message = $_REQUEST['message'] ;
+  mail("teamrocket.g15@gmail.com", $subject,
+  $message, "From:" . $email);
+  echo "Your mail was successfully sent!";
+  }
+else
+  {
+  echo "<form method='post' action='help.php'>
+  Email: <input name='email' type='text'><br>
+  Subject: <input name='subject' type='text'><br>
+  Message:<br>
+  <textarea name='message' rows='15' cols='40'>
+  </textarea><br>
+  <input type='submit' value='Send'>
+  </form>";
+  }
+ 
+?>
 </div>
-
-
-
-
 
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
   Contact information: teamrocket.g15@gmail.com </span>
