@@ -60,25 +60,6 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	background-color: white;
 }
 
-#ratefelt{
-	z-index: 1;
-	position:center;
-	width: 618px;
-	height: 700px;
-	background-image: url("forlopig.png"); /*Dette er bare et bilde av hvordan vi har tenkt at det skal se ut.*/
-	margin: 0 auto;
-}
-
-#help{
-	z-index: 1;
-	position:center;
-	width: 618px;
-	height: 700px;
-	background-image: url("forlopig2.png"); /*Dette er bare et bilde av hvordan vi har tenkt at det skal se ut.*/
-	margin: 0 auto;
-}
-
-
 
 #overskrift {
 	z-index:2;
