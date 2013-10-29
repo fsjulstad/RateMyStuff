@@ -85,10 +85,8 @@ else
   <textarea name='message' rows='15' cols='40'>
   </textarea><br>
   <input type='submit' value='Send'>
-  </form>";
-  }
- 
-?>
+  </form>
+  
 </div>
 
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
