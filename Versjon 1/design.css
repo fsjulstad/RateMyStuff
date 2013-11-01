@@ -3,27 +3,24 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 }
 
 #container{
-	position:center;
+	position:relative;
 	width:900px;
-	margin-left: auto ;
-	margin-right: auto ;
+	margin: 0 auto;
 	clear: both;
 }
 
 #leftnav{
-	position:absolute;
+	position:relative;
 	background-image:url('karbon.png');
 	width:140px;
 	height:700px;
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF; 
 	float:left;
-	clear: both;
-	z-index: 3;
 }
 
 #rightnav{
-  position:left;
+  position: relative;
   background-image:url('karbon.png');
   width:140px;
   height:700px;
@@ -31,8 +28,6 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF; 
   float: right;
-  clear: both;
-  z-index: 4;
 }
 
 #logo {
@@ -42,34 +37,31 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 }
 
 #header{
-  position:realtive;
-  width:898px;
-  height:160px;
-  background-color:#3a3b3b;
-  border-top: 1px solid #FFFFFF;
-  border-left: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
-  border-right: 1px solid #FFFFFF;  
+	position:relative;
+	width:898px;
+	height:160px;
+	background-color:#3a3b3b;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF; 
+	float: left;
 }
 #center{
-	z-index: 1;
-	position:center;
 	width: 618px;
-	height: 700px;
+	height: 862px;
 	margin: 0 auto;
 	background-color: white;
 }
 
 
 #overskrift {
-	z-index:2;
 	position:relative;
 	width:498;
 	left:20;
 }
 
 #tekst{
-	z-index:2;
 	position: relative;
 	width: 498px;
 	left: 20px;                                           	
