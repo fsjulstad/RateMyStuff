@@ -82,5 +82,5 @@ hr{
 	color: #f00;
 	background-color: #f00;
 	height: 5px;
-	position: relative;
+	margin:0 auto;
 }
