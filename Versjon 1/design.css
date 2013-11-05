@@ -67,7 +67,6 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	left: 20px;                                           	
 }
 
-
 #footer{
 	position:relative;	
 	clear:both;
@@ -77,4 +76,11 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	border-bottom: 1px solid #FFFFFF;
 	border-top: 1px solid #FFFFFF;
 	color: #FFFFFF;
+}
+
+hr{
+	color: #f00;
+	background-color: #f00;
+	height: 5px;
+	margin:0 auto;
 }
