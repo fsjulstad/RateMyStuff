@@ -65,8 +65,8 @@
 
 <div id="center">
 	<span id="tekst">Her vil det være nyheter og oppdateringer med siden</span><br>
-	<?php
-
+	
+<?php
 if (isset($_REQUEST['email']))
   {
   $email = $_REQUEST['email'] ;
@@ -85,7 +85,9 @@ else
   <textarea name='message' rows='15' cols='40'>
   </textarea><br>
   <input type='submit' value='Send'>
-  </form>
+  </form>";
+  }
+?>
   
 </div>
 
