@@ -58,13 +58,14 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 #overskrift {
 	position:relative;
 	width:498;
-	left:20;
+	left:45;
+	top:20; 
 }
 
 #tekst{
 	position: relative;
 	width: 498px;
-	left: 20px;                                           	
+	left: 50px;                                           	
 }
 
 #footer{
