@@ -150,7 +150,6 @@ else if ($hente)
         $num=mysql_numrows($result);    // finner antall poster vi fant 
         mysql_close();                    // ferdig med databasen, utskrift gjenstår 
 
-        echo "<b><center>Database Output</center></b><br><br>"; 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
         echo "<tr><td>Navn</td>" . "<td>Tekst</td>" . "</tr><br>"; 
@@ -160,7 +159,7 @@ else if ($hente)
         { 
             $Navn=mysql_result($result,$i,"Navn"); 
             $Tekst=mysql_result($result,$i,"Tekst"); 
-            echo "<tr><td>$Navn</td>" . "<td>$Tekst </td>" . "</tr><br><IMG SRC="topixler.png" WIDTH="480" HEIGHT="2" BORDER="0"><br><br>"; 
+            echo "<tr><td>$Navn<br><br></td>" . "<td>$Tekst </td>" . "</tr><br>" . "<hr>";
             $i++; 
         } // slutt while 
 } // slutt $hente 
