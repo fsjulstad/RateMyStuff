@@ -83,18 +83,16 @@ Dine kommentarer/anmeldelser går her
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
     <tbody>
       <tr>
-        <td>Navn:</td>
+        <td>Name:</td>
         <td><input size="30" name="Navn"></td>
       </tr>
       <tr>
-        <td>Tekst</td>
-        <td><input size="200" name="Tekst" style="width: 50px; height 150px;"></td>
-
+        <td>Comment:</td>
+        <td><textarea class="input textarea" name="Tekst" id="Tekst"></textarea></td>
     </tbody>
   </table>
   <br>
-  <br>
-  <input value="Lagre" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="hente" value="Hente alle registrerte" type="submit"> &nbsp; &nbsp; &nbsp; &nbsp;<input name="nullstill" value="Blank ut feltene" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+  <input value="Post" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="hente" value="Show comments" type="submit"> &nbsp; &nbsp; &nbsp; &nbsp;<input name="reset" value="Blank ut feltene" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</form>
 
 <!--må finne en måte/kode for å skrive ut resultatet på samme side som inn-feltet-->
@@ -111,7 +109,7 @@ $lagre = $_POST['lagre'];
 // Sjekker hva vi har valgt å gjøre på web skjemaet, her LAGRE     
 if ($lagre)  // sjekker om knappen som heter lagre er aktivert 
     {  
-        $result = mysql_query("INSERT INTO Kommentarer VALUES ('$Navn','$Tekst')"); 
+        $result = mysql_query("INSERT INTO Kommentarer (Navn,Tekst) VALUES ('$Navn','$Tekst')"); 
         //$result = mysql_query("INSERT INTO person07 (fornavn,mobil) VALUES ('knut','12345')"); 
         if ($result) 
             {    include "svar.php"; 
@@ -141,7 +139,7 @@ else if ($hente)
             $i++; 
         } // slutt while 
 } // slutt $hente 
- ?>
+ ?> 
 
 </div>
 	

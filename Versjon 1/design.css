@@ -85,3 +85,23 @@ hr{
 	background-color: #f00;
 	height: 5px;
 }
+
+table{
+border:2px solid #a1a1a1;
+padding:10px 40px; 
+background:#dddddd;
+width:300px;
+border-radius:25px;
+}
+
+textarea{
+clear: left;
+min-width:267px;
+min-height:150px;
+max-width:267px;
+max-height:150px;
+}
+
+table td{
+border:none;
+}
