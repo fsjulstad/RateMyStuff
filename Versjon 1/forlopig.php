@@ -100,45 +100,43 @@ Dine kommentarer/anmeldelser går her
 <?PHP  
 include 'database.php'; 
 
-// Henter data fra web skjema 
+
 $Navn = $_POST['Navn']; 
 $Tekst = $_POST['Tekst'];
 $hente = $_POST['hente'];
 $lagre = $_POST['lagre'];
 
-// Sjekker hva vi har valgt å gjøre på web skjemaet, her LAGRE     
-if ($lagre)  // sjekker om knappen som heter lagre er aktivert 
+   
+if ($lagre)   
     {  
         $result = mysql_query("INSERT INTO Kommentarer (Navn,Tekst) VALUES ('$Navn','$Tekst')"); 
-        //$result = mysql_query("INSERT INTO person07 (fornavn,mobil) VALUES ('knut','12345')"); 
+        
         if ($result) 
             {    include "svar.php"; 
                 mysql_close($result); 
             } 
         else    { include "feil.php"; } 
-    }  // slutt lagre 
+    }  
 
 else if ($hente) 
     {    $query="SELECT * FROM Kommentarer"; 
-        $result=mysql_query($query);    // sender sql spørringen inn til basen, hente alt fra tabellen person07 
+        $result=mysql_query($query);  
 
-        $num=mysql_numrows($result);    // finner antall poster vi fant 
-        mysql_close();                    // ferdig med databasen, utskrift gjenstår 
-
+        $num=mysql_numrows($result);    
+        mysql_close();                    
         echo "<b><center>Database Output</center></b><br><br>"; 
         $i=0; 
-        // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td>Navn</td>" . "<td>Tekst</td>" . "</tr><br>"; 
 
-        // går i løkke og skriver en tabellrad for hver post     
-        while ($i < $num)  
+        echo "<tr><td>Navn</td>" . "<td>Tekst</td>" . "</tr><br>"; 
+   
+		while ($i < $num)  
         { 
             $Navn=mysql_result($result,$i,"Navn"); 
             $Tekst=mysql_result($result,$i,"Tekst"); 
             echo "<tr><td>$Navn</td>" . "<td>$Tekst </td>" . "</tr><br>"; 
             $i++; 
-        } // slutt while 
-} // slutt $hente 
+        }  
+} 
  ?> 
 
 </div>
