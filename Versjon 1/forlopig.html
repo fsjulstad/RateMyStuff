@@ -4,13 +4,16 @@
 	<link rel="stylesheet" type="test/css" href="design.css"/>
 	<link rel="stylesheet" type="test/css" href="navbar.css"/>
 	<title>RateMyStuff</title>
+	
+	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+	
 </head>
 <body>
 
 
 <div id="container">
 
-<div id="header"><span id="logo"><img src="rate my stuff2.png" alt="logo"></span></div>
+<div id="header"><span id="logo"><a href="index.html"><img src="rate my stuff2.png" alt="logo"></a></span></div>
 
 
 
@@ -67,28 +70,104 @@
 
 <div id="center">
 
+<div class="img">
+  <a target="_blank" href="www.amobil.no">
+  <img src="amobil.jpg" alt="amobil" width="110" height="90">
+  </a>
+  <div class="desc">Se anmeldelsen på Amobil!</div>
+</div>
+<div class="img">
+  <a target="_blank" href="www.dinside.no">
+  <img src="dinside.jpg" alt="Dinside" width="110" height="90">
+  </a>
+  <div class="desc">Se anmeldelsen på DinSide!</div>
+</div>
+<div class="img">
+  <a target="_blank" href="www.lydogbilde.no">
+  <img src="lyd.jpg" alt="Lyd&Bilde" width="110" height="90">
+  </a>
+  <div class="desc">Se anmeldelsen på Lyd & Bilde!</div>
+</div>
+<div class="img">
+  <a target="_blank" href="www.vg.no">
+  <img src="vg.jpg" alt="VG" width="110" height="90">
+  </a>
+  <div class="desc">Se anmeldelsen på VG nett!</div>
+</div>
+
+
 <br>
-Linker til profesjonelle anmeldelser: <a href="http://www.amobil.no/tester/" target="_blank">Amobil</a>
 
 <br>
 <br>
 Dine kommentarer/anmeldelser går her
 
+<form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
+  <br>
+&nbsp;<br>
+  <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td>Name:</td>
+        <td><input size="30" name="Navn"></td>
+      </tr>
+      <tr>
+        <td>Comment:</td>
+        <td><textarea class="input textarea" name="Tekst" id="kommentar"></textarea></td>
+    </tbody>
+  </table>
+  <br>
+  <input value="Post" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="hente" value="Show comments" type="submit"> &nbsp; &nbsp; &nbsp; &nbsp;<input name="reset" value="Blank ut feltene" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</form>
 
+<!--må finne en måte/kode for å skrive ut resultatet på samme side som inn-feltet-->
 
-<form name="input" action="html_form_action.asp" method="get">
-<br>Name:<input type="text" name="User"><br>
-Comment:<br> <input type="text" name="User" style="width:400px; height:200px;">
-<br>
-<input type="submit" value="Submit">
-</form>
+<?PHP  
+include 'database.php'; 
+
+// Henter data fra web skjema 
+$Navn = $_POST['Navn']; 
+$Tekst = $_POST['kommentar'];
+$hente = $_POST['hente'];
+$lagre = $_POST['lagre'];
+
+// Sjekker hva vi har valgt å gjøre på web skjemaet, her LAGRE     
+if ($lagre)  // sjekker om knappen som heter lagre er aktivert 
+    {  
+        $result = mysql_query("INSERT INTO Kommentarer (Navn,Tekst) VALUES ('$Navn','$Tekst')"); 
+        //$result = mysql_query("INSERT INTO person07 (fornavn,mobil) VALUES ('knut','12345')"); 
+        if ($result) 
+            {    include "svar.php"; 
+                mysql_close($result); 
+            } 
+        else    { include "feil.php"; } 
+    }  // slutt lagre 
+
+else if ($hente) 
+    {    $query="SELECT * FROM Kommentarer"; 
+        $result=mysql_query($query);    // sender sql spørringen inn til basen, hente alt fra tabellen person07 
+
+        $num=mysql_numrows($result);    // finner antall poster vi fant 
+        mysql_close();                    // ferdig med databasen, utskrift gjenstår 
+
+        echo "<b><center>Database Output</center></b><br><br>"; 
+        $i=0; 
+        // skriver ut en overskriftsrad i tabellen 
+        echo "<tr><td>Navn</td>" . "<td>Tekst</td>" . "</tr><br>"; 
+
+        // går i løkke og skriver en tabellrad for hver post     
+        while ($i < $num)  
+        { 
+            $Navn=mysql_result($result,$i,"Navn"); 
+            $Tekst=mysql_result($result,$i,"Tekst"); 
+            echo "<tr><td>$Navn</td>" . "<td>$Tekst </td>" . "</tr><br>"; 
+            $i++; 
+        } // slutt while 
+} // slutt $hente 
+ ?> 
+
 </div>
 	
-
-
-
-
-
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
   Contact information: teamrocket.g15@gmail.com </span>
 </div>
