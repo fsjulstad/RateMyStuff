@@ -80,13 +80,8 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	color: #FFFFFF;
 }
 
-hr{
-	color: #f00;
-	background-color: #f00;
-	height: 5px;
-}
-
 table{
+margin: 0 auto;
 border:2px solid #a1a1a1;
 padding:10px 40px; 
 background:#dddddd;
@@ -95,11 +90,11 @@ border-radius:25px;
 }
 
 textarea{
-clear: left;
 min-width:267px;
 min-height:150px;
 max-width:267px;
 max-height:150px;
+
 }
 
 table td{
