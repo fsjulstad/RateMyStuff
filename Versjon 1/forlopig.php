@@ -88,7 +88,7 @@ Dine kommentarer/anmeldelser går her
       </tr>
       <tr>
         <td>Comment:</td>
-        <td><textarea class="input textarea" name="Tekst" id="Tekst"></textarea></td>
+        <td><textarea class="input textarea" name="Tekst" id="kommentar"></textarea></td>
     </tbody>
   </table>
   <br>
@@ -102,7 +102,7 @@ include 'database.php';
 
 // Henter data fra web skjema 
 $Navn = $_POST['Navn']; 
-$Tekst = $_POST['Tekst'];
+$Tekst = $_POST['kommentar'];
 $hente = $_POST['hente'];
 $lagre = $_POST['lagre'];
 
