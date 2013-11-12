@@ -101,11 +101,10 @@
 <br>
 <br>
 
-<span id="tekst">Dine kommentarer/anmeldelser går her</span>
+<span id="tekst"><br>Dine kommentarer/anmeldelser går her</span>
 
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
-  <br>
-&nbsp;<br>
+&nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
     <tbody>
       <tr>
