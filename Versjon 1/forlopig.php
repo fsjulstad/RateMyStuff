@@ -74,7 +74,7 @@
   <a target="_blank" href="http://www.reviews.cnet.com/">
   <img src="cnet.jpg" alt="cnet" width="110" height="90">
   </a>
-  <div class="desc">Read the review on Cnet!!</div>
+  <div class="desc">Read the review on Cnet!</div>
 </div>
 <div class="img">
   <a target="_blank" href="http://www.techradar.com/reviews">
@@ -98,7 +98,8 @@
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
 &nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
-  <span id="overskrift"><br>Dine kommentarer/anmeldelser går her</span>
+ <div style="text-align:center;"><h1>Your reviews goes here!</h1></div>
+	<br>   
     <tbody>
       <tr>
         <td>Name:</td>
@@ -110,9 +111,9 @@
     </tbody>
   </table>
   <br>
-  <input value="Post" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="hente" value="Show comments" type="submit"> &nbsp; &nbsp; &nbsp; &nbsp;<input name="reset" value="Blank ut feltene" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+<div style="text-align:center;"><input value="Post" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="hente" value="Show comments" type="submit"> &nbsp; &nbsp; &nbsp; &nbsp;<input name="reset" value="Blank ut feltene" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</form>
-
+</div>
 <!--må finne en måte/kode for å skrive ut resultatet på samme side som inn-feltet-->
 
 <?PHP  
