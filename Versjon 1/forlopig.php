@@ -101,7 +101,7 @@
 <br>
 <br>
 
-Dine kommentarer/anmeldelser går her
+<span id="tekst">Dine kommentarer/anmeldelser går her</span>
 
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
   <br>
@@ -153,7 +153,7 @@ else if ($hente)
 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td>Navn</td>" . "<td>Tekst</td>" . "</tr><br>"; 
+        echo "<tr><td>Flere kommentarer</td>"  . "</tr><br>"; 
 
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
