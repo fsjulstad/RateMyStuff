@@ -95,17 +95,10 @@
   <div class="desc">Read the review on Wired!</div>
 </div>
 
-
-<br>
-<br>
-<br>
-<br>
-
-<span id="tekst"><br>Dine kommentarer/anmeldelser går her</span>
-
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
 &nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
+  <span id="tekst"><br>Dine kommentarer/anmeldelser går her</span>
     <tbody>
       <tr>
         <td>Name:</td>
