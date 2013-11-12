@@ -94,11 +94,10 @@
   </a>
   <div class="desc">Read the review on Wired!</div>
 </div>
-
+ <div style="text-align:center;"><h1>Your reviews goes here!</h1></div>
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
 &nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
- <div style="text-align:center;"><h1>Your reviews goes here!</h1></div>
 	<br>   
     <tbody>
       <tr>
