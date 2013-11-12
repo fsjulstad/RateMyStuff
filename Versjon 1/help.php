@@ -64,7 +64,16 @@
 <div id="rightnav"></div>
 
 <div id="center">
-	<span id="tekst">Her vil det være nyheter og oppdateringer med siden</span><br>
+	<div id="tekst"><h3>How to find a product and see others meanings about the product.</h3>
+First you need to select the right category in the vertical menu. The menu is a “pop-out-menu”, so when you held the mouse over a category, some alternatives will pop out. Then it’s just to click on the alternative you like, and there you will find others meaning about the product. 
+<br><br><h3>How to rate/comment your experiences and recommendations about a product?</h3>
+If you want to rate/comment about a product, you will first have to find the right product by using the vertical “pop-out-menu”. When you have selected category, there will be a box where you can leave a comment and also your name. 
+<br><br>
+<h3>How to contact us with questions/feedback on our site.</h3>
+If you have any questions about the site or the products, you can go to the ”Help” category which is located at the bottom on the right side. There you will find a comment field where you can write your own e-mail-address, title and a message of what you are wondering about. When you are finished, this will be sent to our e-mail address, where we will answer your question in a short time. You can find our e-mail address on the bottom of the site.
+ <br><br><h3>How to find links with professional reviews?</h3>
+First you need to choose a category, for example TV. Then you need to choose one of the subcategories, for example Smart-TV. And here you will find different reviews.
+</div><br><br><br>
 	
 <?php
 if (isset($_REQUEST['email']))
@@ -85,10 +94,7 @@ else
   <textarea name='message' rows='15' cols='40'>
   </textarea><br>
   <input type='submit' value='Send'>
-  </form>";
-  }
-?>
-  
+  </form>
 </div>
 
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
