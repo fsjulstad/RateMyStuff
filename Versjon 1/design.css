@@ -117,11 +117,12 @@ table{
 position:relative;
 left:-55px;
 margin: 0 auto;
-border:2px solid #a1a1a1;
+border:2px solid #000000;
 padding:10px 40px; 
-background:#dddddd;
+background:#3a3b3b;
 width:300px;
 border-radius:25px;
+color:#FFFFFF;
 }
 
 textarea{
