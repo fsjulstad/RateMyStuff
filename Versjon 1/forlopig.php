@@ -97,9 +97,10 @@
 
 
 <br>
+<br>
+<br>
+<br>
 
-<br>
-<br>
 Dine kommentarer/anmeldelser går her
 
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
