@@ -74,7 +74,8 @@ If you have any questions about the site or the products, you can go to the ”H
  <br><br><h3>How to find links with professional reviews?</h3>
 First you need to choose a category, for example TV. Then you need to choose one of the subcategories, for example Smart-TV. And here you will find different reviews.
 </div><br><br><br>
-	
+
+<div style="text-align:center;">
 <?php
 if (isset($_REQUEST['email']))
   {
@@ -97,7 +98,7 @@ else
   </form>";
   }
 ?>
-  
+</div>  
 </div>
 
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
