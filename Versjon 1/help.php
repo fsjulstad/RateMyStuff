@@ -89,7 +89,7 @@ if (isset($_REQUEST['email']))
 else
   {
   echo "<form method='post' action='help.php'>
-  Email: <input name='email' type='text'><br>
+  Email: <input name='email' type='text'>
   Subject: <input name='subject' type='text'><br>
   Message:<br>
   <textarea name='message' rows='15' cols='40'>
