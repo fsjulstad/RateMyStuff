@@ -13,7 +13,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	position:relative;
 	background-image:url('karbon.png');
 	width:140px;
-	height:1000px;
+	height:1100px;
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF; 
 	float:left;
@@ -23,7 +23,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
   position: relative;
   background-image:url('karbon.png');
   width:140px;
-  height:1000px;
+  height:1100px;
   background-color:#218B50;
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF; 
@@ -50,7 +50,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 }
 #center{
 	width: 618px;
-	height: 1162px;
+	height: 1262px;
 	margin: 0 auto;
 	background-color: white;
 }
@@ -173,13 +173,18 @@ border:none;
 
 #help{
 position:relative;
-left:-55px;
 margin: 0 auto;
 border:2px solid #000000;
-padding:5px 20px; 
+padding:10px 40px; 
 background:#3a3b3b;
 width:300px;
 border-radius:25px;
 color:#FFFFFF;
 
+}
+
+hr{
+	width: 90%;
+	background-color: #000000;
+	height: 2px;
 }
