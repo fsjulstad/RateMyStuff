@@ -94,7 +94,11 @@
   </a>
   <div class="desc">Read the review on Wired!</div>
 </div>
- <div style="text-align:center;"><h1>Your reviews goes here!</h1></div>
+
+<br>
+<br>
+
+ <div style="text-align:center;"><h4>Your reviews goes here!</h4></div>
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
 &nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
@@ -106,7 +110,7 @@
       </tr>
       <tr>
         <td>Comment:</td>
-        <td><textarea class="input textarea" name="Tekst" id="kommentar"></textarea></td>
+        <td><textarea class="input textarea" name="kommentar" id="kommentar"></textarea></td>
     </tbody>
   </table>
   <br>
@@ -129,11 +133,6 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
     {  
         $result = mysql_query("INSERT INTO Kommentarer (Navn,Tekst) VALUES ('$Navn','$Tekst')"); 
         //$result = mysql_query("INSERT INTO person07 (fornavn,mobil) VALUES ('knut','12345')"); 
-        if ($result) 
-            {    include "svar.php"; 
-                mysql_close($result); 
-            } 
-        else    { include "feil.php"; } 
     }  // slutt lagre 
 
 else if ($hente) 
@@ -145,7 +144,7 @@ else if ($hente)
 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td>Flere kommentarer</td>"  . "</tr><br>"; 
+        echo "<tr><td><h4>Flere kommentarer</h4></td>"  . "</tr><br>"; 
 
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
