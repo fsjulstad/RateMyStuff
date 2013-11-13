@@ -75,7 +75,8 @@ If you have any questions about the site or the products, you can go to the ”H
 First you need to choose a category, for example TV. Then you need to choose one of the subcategories, for example Smart-TV. And here you will find different reviews.
 </div><br><br><br>
 
-<div style="text-align:center;">
+
+<div id="help" style="text-align:center;">
 <?php
 if (isset($_REQUEST['email']))
   {
@@ -89,7 +90,7 @@ if (isset($_REQUEST['email']))
 else
   {
   echo "<form method='post' action='help.php'>
-  Email: <input name='email' type='text'>
+  Email: <input name='email' type='text'><br>
   Subject: <input name='subject' type='text'><br>
   Message:<br>
   <textarea name='message' rows='15' cols='40'>
@@ -97,6 +98,8 @@ else
   <input type='submit' value='Send'>
   </form>";
   }
+
+
 ?>
 </div>  
 </div>
