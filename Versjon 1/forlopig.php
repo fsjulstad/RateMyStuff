@@ -152,7 +152,7 @@ else if ($hente)
         { 
             $Navn=mysql_result($result,$i,"Navn"); 
             $Tekst=mysql_result($result,$i,"Tekst"); 
-            echo "<tr><td>$Navn<br><br></td>" . "<td>$Tekst </td>" . "</tr><br>" . "<hr>";
+            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$Tekst<br></td>" . "</tr><br>" . "<hr>";
             $i++; 
         } // slutt while 
 } // slutt $hente 

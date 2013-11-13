@@ -115,7 +115,6 @@ div.desc
 
 table{
 position:relative;
-left:-55px;
 margin: 0 auto;
 border:2px solid #000000;
 padding:10px 40px; 
@@ -126,9 +125,9 @@ color:#FFFFFF;
 }
 
 textarea{
-min-width:267px;
+min-width:330px;
 min-height:150px;
-max-width:267px;
+max-width:330px;
 max-height:150px;
 
 }
