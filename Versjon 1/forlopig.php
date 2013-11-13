@@ -95,14 +95,11 @@
   <div class="desc">Read the review on Wired!</div>
 </div>
 
-<br>
-<br>
-
- <div style="text-align:center;"><h4>Your reviews goes here!</h4></div>
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
 &nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
-	<br>   
+	<div style="text-align:center;"><h4>Post your review here:</h4></div>
+	<br>
     <tbody>
       <tr>
         <td>Name:</td>
@@ -144,7 +141,7 @@ else if ($hente)
 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td><h4>Flere kommentarer</h4></td>"  . "</tr><br>"; 
+        echo "<tr><td><h4>See other comments:</h4></td>"  . "</tr>"; 
 
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
