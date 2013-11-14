@@ -13,7 +13,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	position:relative;
 	background-image:url('karbon.png');
 	width:140px;
-	height:1100px;
+	height:1400px;
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF; 
 	float:left;
@@ -23,7 +23,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
   position: relative;
   background-image:url('karbon.png');
   width:140px;
-  height:1100px;
+  height:1400px;
   background-color:#218B50;
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF; 
@@ -50,7 +50,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 }
 #center{
 	width: 618px;
-	height: 1262px;
+	height: 1562px;
 	margin: 0 auto;
 	background-color: white;
 }
