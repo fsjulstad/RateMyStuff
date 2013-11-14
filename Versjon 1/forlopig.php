@@ -94,8 +94,9 @@
   </a>
   <div class="desc">Read the review on Wired!</div>
 </div>
-
-<h4>Sony 55" 3D Smart LED-TV KDL-55W905A</h4>
+<br>
+<br>
+<div style="text-align:center";> <h4>Sony 55" 3D Smart LED-TV KDL-55W905A</h4></div>
 <div id="tekst">
 <img src="sony3d1.jpg" alt="Sony" width="270" height="300">
 </div>
