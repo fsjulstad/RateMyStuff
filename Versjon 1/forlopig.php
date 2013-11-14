@@ -95,6 +95,22 @@
   <div class="desc">Read the review on Wired!</div>
 </div>
 
+<h4>Sony 55" 3D Smart LED-TV KDL-55W905A</h4>
+<div id="tekst">
+<img src="sony3d1.jpg" alt="Sony" width="270" height="300">
+</div>
+
+<div id="info">
+<ul>
+  <li>LED-3D</li>
+  <li>55"</li>
+  <li>16:9</li>
+  <li>FULL HD(1080p)</li>
+  <li>PAL/NTSC/SECAM</li>
+</ul>
+</div>
+
+<div id="pos">
 <form method="post" action="forlopig.php" name="databasetest">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<br>
 &nbsp;
   <table style="text-align: left; width: 50px; height: 150px;" border="1" cellpadding="2" cellspacing="2">
@@ -115,7 +131,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</form>
 </div>
 <!--må finne en måte/kode for å skrive ut resultatet på samme side som inn-feltet-->
-
+</div>
 <?PHP  
 include 'database.php'; 
 

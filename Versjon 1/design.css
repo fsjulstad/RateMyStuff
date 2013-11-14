@@ -188,3 +188,16 @@ hr{
 	background-color: #000000;
 	height: 2px;
 }
+
+#info{
+position: relative;
+top: -200px;
+left: 350px;
+}
+
+#pos{
+position:relative;
+top: -170px;
+left:0px;
+
+}
