@@ -132,7 +132,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</form>
 </div>
 <!--må finne en måte/kode for å skrive ut resultatet på samme side som inn-feltet-->
-</div>
+
 <?PHP  
 include 'database.php'; 
 
@@ -170,7 +170,7 @@ else if ($hente)
         } // slutt while 
 } // slutt $hente 
  ?> 
-
+</div>
 </div>
 	
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
