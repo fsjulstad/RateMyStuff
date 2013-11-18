@@ -73,12 +73,12 @@ nav ul ul li {
     border-top:0;
 }
 nav ul ul li a {
-    color:#000000;
+    color:#000;
     font-size:12px;
     text-transform:none;
 }
 nav ul ul li a:hover {
-    color:#929292;
+    color:#666666;
 }
 
 /* Ender farge: barkgrunn og farge for firkant(animasjon), på elementene, roterer 90 grader */
