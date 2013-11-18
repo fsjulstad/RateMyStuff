@@ -139,7 +139,7 @@ include 'database.php';
 // Henter data fra web skjema 
 $Navn = $_POST['Navn']; 
 $Tekst = $_POST['kommentar'];
-$hente = $_POST['hente'];
+
 $lagre = $_POST['lagre'];
 
 // Sjekker hva vi har valgt å gjøre på web skjemaet, her LAGRE     
@@ -149,7 +149,6 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
         //$result = mysql_query("INSERT INTO person07 (fornavn,mobil) VALUES ('knut','12345')"); 
     }  // slutt lagre 
 
-else if ($hente) 
     {    $query="SELECT * FROM Kommentarer"; 
         $result=mysql_query($query);    // sender sql spørringen inn til basen, hente alt fra tabellen person07 
 
