@@ -1,5 +1,6 @@
 
 /*CSS for navbar*/
+/*http://weebtutorials.com/2012/11/vertical-css3-dropdown-menu/*/
 nav {
     /* Legger til bakgrunn */
     background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
@@ -72,7 +73,7 @@ nav ul ul li {
     border-top:0;
 }
 nav ul ul li a {
-    color:#a8a8a8;
+    color:#000000;
     font-size:12px;
     text-transform:none;
 }
