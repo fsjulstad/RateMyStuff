@@ -100,7 +100,7 @@ div.img img
   border:1px solid #;
   border-radius:25px
   }
-div.img a:hover img
+div.img a img
   {
   border:1px solid #000000;
   border-radius:25px
@@ -188,6 +188,7 @@ hr{
 	background-color: #000000;
 	height: 2px;
 }
+
 
 #info{
 position: relative;
