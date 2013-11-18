@@ -123,7 +123,7 @@
         <td><input size="30" name="Navn"></td>
       </tr>
       <tr>
-        <td>Comment:</td>
+        <td>Review:</td>
         <td><textarea class="input textarea" name="kommentar" id="kommentar"></textarea></td>
     </tbody>
   </table>
@@ -156,7 +156,7 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td><h4>See other comments:</h4></td>"  . "</tr>"; 
+        echo "<tr><td><h4>User reviews:</h4></td>"  . "</tr>"; 
 
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
