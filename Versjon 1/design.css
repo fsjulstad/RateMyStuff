@@ -53,6 +53,7 @@ background-image:url('carbon.png'); /* denne bakgrunnen er ikke endelig */
 	height: 1562px;
 	margin: 0 auto;
 	background-color: white;
+	/*overflow: auto;*/
 }
 
 
