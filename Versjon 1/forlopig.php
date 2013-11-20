@@ -86,12 +86,6 @@
   </a>
   <div class="desc">Read the review on TheVerge!</div>
 </div>
-<div class="img">
-  <a target="_blank" href="http://www.wired.com/reviews/">
-  <img src="wired.jpg" alt="wired" width="110" height="90">
-  </a>
-  <div class="desc">Read the review on Wired!</div>
-</div>
 <br>
 <br>
 <div id="tekst">
