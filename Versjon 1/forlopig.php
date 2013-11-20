@@ -10,7 +10,6 @@
 </head>
 <body>
 
-
 <div id="container">
 
 <div id="header"><span id="logo"><a href="index.html"><img src="rate my stuff2.png" alt="logo"></a></span></div>
@@ -154,14 +153,16 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td><h4>User reviews:</h4></td>"  . "</tr>"; 
+        echo "<tr><td><h4>User reviews:</h4></td>"  . "</tr>";
 
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
         { 
             $Navn=mysql_result($result,$i,"Navn"); 
-            $Tekst=mysql_result($result,$i,"Tekst"); 
-            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$Tekst<br></td>" . "</tr><br>" . "<hr>";
+            $Tekst=mysql_result($result,$i,"Tekst");
+			$newtext = wordwrap($Tekst, 100, "<br />\n");
+			
+            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$newtext<br></td>" . "</tr><br>" . "<hr>";
             $i++; 
         } // slutt while 
 } // slutt $hente 
