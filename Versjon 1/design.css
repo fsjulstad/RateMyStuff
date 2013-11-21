@@ -188,9 +188,9 @@ text-align:center;
 border-radius:10px;
 }
 
-#linkcolor a:link
+#linkcolor a:link a:visited;
 {
-color:blue;
+color:white;
 }
 
 
