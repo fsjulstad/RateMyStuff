@@ -20,7 +20,7 @@
 <nav>
     <ul>
         <li><a href="index.html"><span></span>Home</a></li>
-        <li> <a href="forlopig.html"><span></span>Cameras</a>
+        <li> <a href="help.php"><span></span>Cameras</a>
             <ul>
                 <li><a href="forlopig.html">System</a></li>
                 <li><a href="forlopig.html">Compact</a></li>
@@ -29,14 +29,14 @@
                 <li><a href="forlopig.html">Accessories</a></li>
             </ul>
         </li>
-          <li> <a href="forlopig.html"><span></span>Phones</a>
+          <li> <a href="help.php"><span></span>Phones</a>
             <ul>
                 <li><a href="forlopig.html">Touch</a></li>
         		<li><a href="forlopig.html">Traditional</a></li> 
             </ul>
         </li>
         </li>
-          <li> <a href="forlopig.html"><span></span>Sound</a>
+          <li> <a href="help.php"><span></span>Sound</a>
             <ul>
                 <li><a href="forlopig.html">Dockingstation</a></li>
         		<li><a href="forlopig.html">Speakers</a></li>
@@ -45,9 +45,9 @@
             </ul>
         </li>
         </li>
-          <li> <a href="forlopig.html"><span></span>TV</a>
+          <li> <a href="help.php"><span></span>TV</a>
             <ul>
-                <li><a href="forlopig.html">3D</a></li>
+                <li><a href="tv.html">3D</a></li>
         		<li><a href="forlopig.html">LCD</a></li>
         		<li><a href="forlopig.html">LED</a></li>
         		<li><a href="forlopig.html">Plasma</a></li>
