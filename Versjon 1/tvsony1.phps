@@ -72,19 +72,19 @@
   <a target="_blank" href="http://www.reviews.cnet.com/">
   <img src="cnet.jpg" alt="cnet" width="110" height="90">
   </a>
-  <div class="desc"><a href="reviews.cnet.com">Read the review on Cnet!</a></div>
+  <div class="desc"><a href="www.reviews.cnet.com">Read the review on Cnet!</a></div>
 </div>
 <div class="img">
-  <a target="_blank" href="http://www.techradar.com/reviews">
+  <a target="_blank" href="http://www.techradar.com/reviews/audio-visual/televisions/plasma-and-lcd-tvs/sony-kdl-55w905a-1149989/review">
   <img src="techradar.jpg" alt="techradar" width="110" height="90">
   </a>
-  <div class="desc">Read the review on Techradar!</div>
+  <div class="desc"><a href="http://www.techradar.com/reviews">Read the review on Techradar!</a></div>
 </div>
 <div class="img">
   <a target="_blank" href="http://www.theverge.com/reviews">
   <img src="theverge.png" alt="theverge" width="110" height="90">
   </a>
-  <div class="desc">Read the review on TheVerge!</div>
+  <div class="desc"><a href="http://www.techradar.com/reviews/audio-visual/televisions/plasma-and-lcd-tvs/sony-kdl-55w905a-1149989/review">Read the review on TheVerge!</a></div>
 </div>
 <br>
 <br>
