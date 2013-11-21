@@ -86,6 +86,12 @@
   </a>
   <div class="desc">Read the review on TheVerge!</div>
 </div>
+<div class="img">
+  <a target="_blank" href="http://www.wired.com/reviews/">
+  <img src="wired.jpg" alt="wired" width="110" height="90">
+  </a>
+  <div class="desc">Read the review on Wired!</div>
+</div>
 <br>
 <br>
 <div id="tekst">
@@ -156,7 +162,7 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
             $Tekst=mysql_result($result,$i,"Tekst");
 			$newtext = wordwrap($Tekst, 100, "<br />\n");
 			
-            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$newtext<br></td>" . "</tr><br>" . "<hr>";
+            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$nwtexet<br></td>" . "</tr><br>" . "<hr>";
             $i++; 
         } // slutt while 
 } // slutt $hente 
