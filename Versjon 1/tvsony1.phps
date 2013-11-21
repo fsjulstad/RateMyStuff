@@ -10,7 +10,6 @@
 </head>
 <body>
 
-
 <div id="container">
 
 <div id="header"><span id="logo"><a href="index.html"><img src="rate my stuff2.png" alt="logo"></a></span></div>
@@ -66,15 +65,14 @@
 </div>
 <div id="rightnav"></div>
 
-
-
 <div id="center">
 
+<div id="tvtekst" style="text-align:center";> <h3>Sony 55" 3D Smart LED-TV KDL-55W905A</h3></div>
 <div class="img">
   <a target="_blank" href="http://www.reviews.cnet.com/">
   <img src="cnet.jpg" alt="cnet" width="110" height="90">
   </a>
-  <div class="desc">Read the review on Cnet!</div>
+  <div class="desc"><a href="reviews.cnet.com">Read the review on Cnet!</a></div>
 </div>
 <div class="img">
   <a target="_blank" href="http://www.techradar.com/reviews">
@@ -88,15 +86,8 @@
   </a>
   <div class="desc">Read the review on TheVerge!</div>
 </div>
-<div class="img">
-  <a target="_blank" href="http://www.wired.com/reviews/‎">
-  <img src="wired.jpg" alt="wired" width="110" height="90">
-  </a>
-  <div class="desc">Read the review on Wired!</div>
-</div>
 <br>
 <br>
-<div style="text-align:center";> <h4>Sony 55" 3D Smart LED-TV KDL-55W905A</h4></div>
 <div id="tekst">
 <img src="sony3d1.jpg" alt="Sony" width="270" height="300">
 </div>
@@ -123,23 +114,22 @@
         <td><input size="30" name="Navn"></td>
       </tr>
       <tr>
-        <td>Comment:</td>
+        <td>Review:</td>
         <td><textarea class="input textarea" name="kommentar" id="kommentar"></textarea></td>
     </tbody>
   </table>
   <br>
-<div style="text-align:center;"><input value="Post" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="hente" value="Show comments" type="submit"> &nbsp; &nbsp; &nbsp; &nbsp;<input name="reset" value="Reset" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+<div style="text-align:center;"><input value="Post" name="lagre" type="submit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="reset" value="Reset" type="reset">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</form>
 </div>
 <!--må finne en måte/kode for å skrive ut resultatet på samme side som inn-feltet-->
-</div>
+
 <?PHP  
 include 'database.php'; 
 
 // Henter data fra web skjema 
 $Navn = $_POST['Navn']; 
 $Tekst = $_POST['kommentar'];
-$hente = $_POST['hente'];
 $lagre = $_POST['lagre'];
 
 // Sjekker hva vi har valgt å gjøre på web skjemaet, her LAGRE     
@@ -149,7 +139,6 @@ if ($lagre)  // sjekker om knappen som heter lagre er aktivert
         //$result = mysql_query("INSERT INTO person07 (fornavn,mobil) VALUES ('knut','12345')"); 
     }  // slutt lagre 
 
-else if ($hente) 
     {    $query="SELECT * FROM Kommentarer"; 
         $result=mysql_query($query);    // sender sql spørringen inn til basen, hente alt fra tabellen person07 
 
@@ -158,19 +147,21 @@ else if ($hente)
 
         $i=0; 
         // skriver ut en overskriftsrad i tabellen 
-        echo "<tr><td><h4>See other comments:</h4></td>"  . "</tr>"; 
+        echo "<tr><td><h4>User reviews:</h4></td>"  . "</tr>";
 
         // går i løkke og skriver en tabellrad for hver post     
         while ($i < $num)  
         { 
             $Navn=mysql_result($result,$i,"Navn"); 
-            $Tekst=mysql_result($result,$i,"Tekst"); 
-            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$Tekst<br></td>" . "</tr><br>" . "<hr>";
+            $Tekst=mysql_result($result,$i,"Tekst");
+			$newtext = wordwrap($Tekst, 100, "<br />\n");
+			
+            echo "<tr><td><br><b>$Navn</b><br></td>" . "<td>$newtext<br></td>" . "</tr><br>" . "<hr>";
             $i++; 
         } // slutt while 
 } // slutt $hente 
  ?> 
-
+</div>
 </div>
 	
 <div id="footer"><span class="kontaktinfo"> Posted by: Team Rocket  <br>
