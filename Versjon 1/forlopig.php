@@ -22,7 +22,7 @@
 <nav>
     <ul>
         <li><a href="index.html"><span></span>Home</a></li>
-        <li> <a href="forlopig.html"><span></span>Cameras</a>
+        <li> <a href="tvsony1.php"><span></span>Cameras</a>
             <ul>
                 <li><a href="forlopig.html">System</a></li>
                 <li><a href="forlopig.html">Compact</a></li>
@@ -31,14 +31,14 @@
                 <li><a href="forlopig.html">Accessories</a></li>
             </ul>
         </li>
-          <li> <a href="forlopig.html"><span></span>Phones</a>
+          <li> <a href="tvsony1.php"><span></span>Phones</a>
             <ul>
                 <li><a href="forlopig.html">Touch</a></li>
         		<li><a href="forlopig.html">Traditional</a></li> 
             </ul>
         </li>
         </li>
-          <li> <a href="forlopig.html"><span></span>Sound</a>
+          <li> <a href="tvsony1.php"><span></span>Sound</a>
             <ul>
                 <li><a href="forlopig.html">Dockingstation</a></li>
         		<li><a href="forlopig.html">Speakers</a></li>
@@ -47,7 +47,7 @@
             </ul>
         </li>
         </li>
-          <li> <a href="forlopig.html"><span></span>TV</a>
+          <li> <a href="tvsony1.php"><span></span>TV</a>
             <ul>
                 <li><a href="forlopig.html">3D</a></li>
         		<li><a href="forlopig.html">LCD</a></li>
@@ -69,10 +69,10 @@
 
 <div id="tvtekst" style="text-align:center";> <h3>Sony 55" 3D Smart LED-TV KDL-55W905A</h3></div>
 <div class="img">
-  <a target="_blank" href="http://www.reviews.cnet.com/">
+  <a target="_blank" href="forlopig.html">
   <img src="cnet.jpg" alt="cnet" width="110" height="90">
   </a>
-  <div class="desc"><a href="www.reviews.cnet.com">Read the review on Cnet!</a></div>
+  <div class="desc"><a href="forlopig.html">Read the review on Cnet!</a></div>
 </div>
 <div class="img">
   <a target="_blank" href="http://www.techradar.com/reviews/audio-visual/televisions/plasma-and-lcd-tvs/sony-kdl-55w905a-1149989/review">
@@ -81,10 +81,10 @@
   <div class="desc"><a href="http://www.techradar.com/reviews">Read the review on Techradar!</a></div>
 </div>
 <div class="img">
-  <a target="_blank" href="http://www.theverge.com/reviews">
+  <a target="_blank" href="forlopig.html">
   <img src="theverge.png" alt="theverge" width="110" height="90">
   </a>
-  <div class="desc"><a href="http://www.techradar.com/reviews/audio-visual/televisions/plasma-and-lcd-tvs/sony-kdl-55w905a-1149989/review">Read the review on TheVerge!</a></div>
+  <div class="desc"><a href="forlopig.html">Read the review on TheVerge!</a></div>
 </div>
 <br>
 <br>
